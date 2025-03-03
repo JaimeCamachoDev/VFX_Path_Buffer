@@ -1,35 +1,10 @@
 <header>
 
-![Sin título-2](https://github.com/user-attachments/assets/5b933a56-0ece-452a-99c0-1a641485a6b9)
+![VFX_2025-03-03_099](https://github.com/user-attachments/assets/f04efbac-fd6d-4b4d-afe2-a337812783bd)
 
-# Titulo
+# VFX_Path_Buffer 
 
-_Descripción_
+_VFX Graph in Unity 6 URP, Path work with Buffer_
 
 </header>
 
-## Subtitulo
-
-Descripción :tada: :keyboard: 
-
-Asi se hacen hypervinculos [repository](https://github.com/JaimeCamachoDev/Template?tab=readme-ov-file#titulo).
-
-### Encabezado
-
-1. Lista
-1. Lista
-1. Lista
-1. Lista
-1. Lista
-1. Lista
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-</footer>
