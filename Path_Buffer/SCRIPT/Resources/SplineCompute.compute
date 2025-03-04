@@ -1,0 +1,23 @@
+﻿#pragma kernel SplineCompute
+
+// Definir el buffer estructurado que almacenará las posiciones de la spline
+RWStructuredBuffer<float4> SplineBuffer;
+
+// Número de partículas
+int ParticleCount;
+
+// Índice de partícula a calcular
+[numthreads(8, 1, 1)]
+void SplineCompute(uint3 id : SV_DispatchThreadID)
+{
+    uint index = id.x;
+
+    if (index >= ParticleCount)
+        return;
+
+    // Obtener la posición correcta desde el buffer
+    float4 splinePos = SplineBuffer[index];
+
+    // Asignar la nueva posición a la partícula
+    SplineBuffer[index] = splinePos;
+}
